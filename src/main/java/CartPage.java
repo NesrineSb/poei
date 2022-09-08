@@ -1,4 +1,10 @@
+import org.openqa.selenium.WebDriver;
+
 public class CartPage {
+
+    private WebDriver driver;
+
+
     //select quantity in quantity dropdown
     public void selectQuantity(int quantity){
 
