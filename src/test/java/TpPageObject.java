@@ -40,7 +40,7 @@ public class TpPageObject {
         productPage.refuseAppleCare();
         productPage.openCard();
         SearchResultPage searchResultPage = new SearchResultPage(driver);
-        searchResultPage.openSearchResult();
+        searchResultPage.openSearchResult(0);
         CartPage cartPage = new CartPage(driver);
 
         // ***********************************Asserts*********************//

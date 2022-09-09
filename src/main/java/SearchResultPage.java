@@ -15,9 +15,10 @@ public class SearchResultPage {
     }
 
     //click the search result with index n
-    public void openSearchResult(){
+    public void openSearchResult(int index) {
         List<WebElement> resultatList = driver.findElements(openSearchResultSelector);
         resultatList.get(0).click();
+    }
 
     }
-}
+
